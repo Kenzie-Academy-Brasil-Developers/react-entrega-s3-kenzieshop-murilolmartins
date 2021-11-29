@@ -11,6 +11,19 @@ const Container = styled.div`
   padding: 10px 0px;
   margin-bottom: 10px;
   border-radius: 5px;
+  position: relative;
+  .count {
+    position: absolute;
+    background-color: blue;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    top: 8px;
+    right: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
   .image {
     width: 90%;
     display: flex;

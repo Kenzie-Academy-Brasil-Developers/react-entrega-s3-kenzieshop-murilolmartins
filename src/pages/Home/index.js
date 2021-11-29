@@ -10,7 +10,7 @@ export default function Home() {
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(productsReducerThunk());
-  }, []);
+  }, [dispatch]);
   const products = useSelector((state) => state.products);
   return (
     <>

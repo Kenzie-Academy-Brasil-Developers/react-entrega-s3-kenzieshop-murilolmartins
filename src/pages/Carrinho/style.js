@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  width: 70%;
+  width: 76%;
   padding-top: 20px;
 `;
 export const SmallContainer = styled.div``;

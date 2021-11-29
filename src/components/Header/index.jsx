@@ -17,7 +17,7 @@ export default function Header() {
             <BiCart></BiCart>
           </div>
           <span onClick={() => history.push("/cart")}>Carrinho</span>
-          <div className="count">{cart}</div>
+          {cart > 0 && <div className="count">{cart}</div>}
         </SmallContainer>
         <SmallContainer>
           <BiLogInCircle></BiLogInCircle>
